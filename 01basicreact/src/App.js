@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Code from "./code";
 
 function App() {
   return (
-    <h1>Vidya Sagar</h1>
+    <>
+    
+  <Code />
+    <h1>Vidya Pandit React App</h1>
+    </>
   );
 }
 
-export default App;
+export default App
