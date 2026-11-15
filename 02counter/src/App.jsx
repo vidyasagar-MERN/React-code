@@ -16,8 +16,11 @@ function App() {
     }else{
       alert("Your number is giong to High")
     }
-     Counter +=  1
-setCounter(Counter)
+setCounter(Counter + 1)
+setCounter(prevCounter =>prevCounter + 1)
+setCounter(prevCounter =>prevCounter + 1)
+setCounter(prevCounter =>prevCounter + 1)
+
   }
   const removeValue = () => {
     if(Counter>0){
